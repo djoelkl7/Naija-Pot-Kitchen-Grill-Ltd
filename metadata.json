@@ -1,0 +1,6 @@
+{
+  "name": "NAIJA POT KITCHEN & GRILL LTD",
+  "description": "Official website for NAIJA POT KITCHEN & GRILL LTD — Authentic Nigerian Cuisine, Suya & Grills in Milton Keynes, UK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

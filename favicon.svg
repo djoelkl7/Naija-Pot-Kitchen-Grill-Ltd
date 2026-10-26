@@ -1,0 +1,29 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE588" />
+      <stop offset="50%" stop-color="#D4A53A" />
+      <stop offset="100%" stop-color="#9E7422" />
+    </linearGradient>
+    <linearGradient id="favFlame" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#C73E1D" />
+      <stop offset="100%" stop-color="#FF6B35" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="#0A0908" />
+  <circle cx="128" cy="128" r="114" stroke="url(#favGold)" stroke-width="4" stroke-dasharray="6 4" opacity="0.7"/>
+  <circle cx="128" cy="128" r="102" fill="#131110" />
+  <!-- Flame -->
+  <path d="M128 45 C140 75 160 85 148 118 C168 98 162 72 154 58 C148 84 136 100 128 108 C122 96 112 75 128 45 Z" fill="url(#favFlame)" />
+  <!-- Pot Rim -->
+  <ellipse cx="128" cy="120" rx="55" ry="12" fill="#25211C" stroke="url(#favGold)" stroke-width="3" />
+  <!-- Pot Belly -->
+  <path d="M76 122 C76 166 98 190 128 190 C158 190 180 166 180 122 Z" fill="#1C1916" stroke="url(#favGold)" stroke-width="3" />
+  <!-- Handles -->
+  <path d="M74 130 C62 130 58 144 72 150" stroke="url(#favGold)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M182 130 C194 130 198 144 184 150" stroke="url(#favGold)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Legs -->
+  <path d="M96 186 L88 212 M160 186 L168 212 M128 190 L128 216" stroke="url(#favGold)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Coals -->
+  <ellipse cx="128" cy="216" rx="45" ry="6" fill="#C73E1D" opacity="0.8" />
+</svg>

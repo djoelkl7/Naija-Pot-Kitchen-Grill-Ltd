@@ -1,0 +1,77 @@
+<svg width="985" height="388" viewBox="0 0 985 388" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE588" />
+      <stop offset="45%" stop-color="#D4A53A" />
+      <stop offset="100%" stop-color="#9E7422" />
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#C73E1D" />
+      <stop offset="60%" stop-color="#FF6B35" />
+      <stop offset="100%" stop-color="#FCE588" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Left Emblem: The Naija Pot & Grill Flames -->
+  <g transform="translate(40, 54)">
+    <!-- Outer ornate circular ring -->
+    <circle cx="140" cy="140" r="132" stroke="url(#goldGrad)" stroke-width="3" stroke-dasharray="6 4" opacity="0.8" />
+    <circle cx="140" cy="140" r="122" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.5" />
+    
+    <!-- Background subtle dark disk -->
+    <circle cx="140" cy="140" r="118" fill="#131110" />
+
+    <!-- Culinary Fire / Grill Flames rising behind pot -->
+    <path d="M140 40 C155 75 180 85 165 125 C190 100 185 70 175 55 C168 85 152 105 140 115 C132 100 120 75 140 40 Z" fill="url(#flameGrad)" opacity="0.9" filter="url(#glow)" />
+    <path d="M115 80 C125 105 135 115 120 140 C140 125 135 100 130 90 Z" fill="url(#flameGrad)" opacity="0.8" />
+    <path d="M165 85 C155 108 148 118 160 142 C142 128 148 102 152 92 Z" fill="url(#flameGrad)" opacity="0.8" />
+
+    <!-- Traditional Three-Legged Pot (Naija Pot) Body -->
+    <!-- Pot Rim -->
+    <ellipse cx="140" cy="125" rx="66" ry="14" fill="#25211C" stroke="url(#goldGrad)" stroke-width="3.5" />
+    
+    <!-- Pot Belly -->
+    <path d="M78 127 C78 178 102 208 140 208 C178 208 202 178 202 127 Z" fill="#1C1916" stroke="url(#goldGrad)" stroke-width="3.5" />
+    
+    <!-- Pot handles -->
+    <path d="M76 138 C62 138 58 155 74 162" stroke="url(#goldGrad)" stroke-width="4" stroke-linecap="round" fill="none" />
+    <path d="M204 138 C218 138 222 155 206 162" stroke="url(#goldGrad)" stroke-width="4" stroke-linecap="round" fill="none" />
+    
+    <!-- Pot decorative tribal line -->
+    <path d="M92 156 Q140 174 188 156" stroke="url(#goldGrad)" stroke-width="2" stroke-dasharray="3 3" fill="none" />
+    
+    <!-- Pot tripod legs -->
+    <path d="M102 202 L92 232 M178 202 L188 232 M140 208 L140 236" stroke="url(#goldGrad)" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Glowing ember base / grill coals -->
+    <ellipse cx="140" cy="235" rx="55" ry="7" fill="#C73E1D" opacity="0.7" filter="url(#glow)" />
+    <circle cx="115" cy="235" r="3.5" fill="#FF6B35" />
+    <circle cx="140" cy="236" r="4" fill="#FCE588" />
+    <circle cx="165" cy="235" r="3.5" fill="#FF6B35" />
+  </g>
+
+  <!-- Typography Right Column -->
+  <!-- Brand Name: NAIJA POT -->
+  <text x="350" y="160" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="78" fill="url(#goldGrad)" letter-spacing="4">
+    NAIJA POT
+  </text>
+  
+  <!-- Sub-brand: KITCHEN & GRILL LTD -->
+  <text x="355" y="218" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="30" fill="#F5E6D3" letter-spacing="8">
+    KITCHEN &amp; GRILL LTD
+  </text>
+
+  <!-- Decorative separator line with diamond -->
+  <line x1="355" y1="242" x2="620" y2="242" stroke="url(#goldGrad)" stroke-width="2" opacity="0.8" />
+  <polygon points="635,242 642,236 649,242 642,248" fill="#D4A53A" />
+  <line x1="664" y1="242" x2="930" y2="242" stroke="url(#goldGrad)" stroke-width="2" opacity="0.8" />
+
+  <!-- Tagline: Authentic Nigerian Cuisine • Milton Keynes -->
+  <text x="355" y="278" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="18" fill="#D4A53A" letter-spacing="4" opacity="0.95">
+    AUTHENTIC NIGERIAN CUISINE • MILTON KEYNES
+  </text>
+</svg>
